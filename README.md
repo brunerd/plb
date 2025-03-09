@@ -1,6 +1,8 @@
 # plb
 plist broker is a command line utility for macOS 13+ 
 
+Related blog articles at: https://www.brunerd.com/blog/tag/plb
+
 ```
 plb 1.0 - plist broker (https://github.com/brunerd/plb)
 A tool for exploring and extracting data within plists
