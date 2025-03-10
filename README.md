@@ -45,7 +45,6 @@ Options (pick one):
    -CCC (or -V) Print value of simple types; data types output as plaintext, formatted XML/JSON, or xxd dump
   -j convert plist or query results to JSON (all types coerced to strings)
   -p print plist or query results using PlistBuddy
-  -r raw output; inhibits further processing of XML, plist, or JSON data within string or data types
   -t print abstract type of plist or query results
   -x ensure XML output; inhibits both data type decoding and plaintext output
 
@@ -55,6 +54,9 @@ Options (pick one):
  Data types (only):
   -F `file` type of decoded base64 data
   -s plaintext string of base64 encoded data (whitespace removed)
+
+ Data and string types (only):
+  -r raw output; inhibits further processing of XML, plist, or JSON data within string or data types
 
  Date types (only):
   -e output ISO 8601 date in epoch time instead
